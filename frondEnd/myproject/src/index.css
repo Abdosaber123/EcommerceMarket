@@ -1,0 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bogle&family=Inconsolata:wght@200..900&family=Tagesschrift&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
