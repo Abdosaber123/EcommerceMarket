@@ -1,11 +1,11 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import pepsi from "../assets/image/Pepsi_New_Cans-Group-1540x800.JPG";
+import pepsi from "../assets/image/Pepsi_New_Cans-Group-1540x800.jpg";
 import learn from "../assets/image/pngtree-back-to-school-stationery-set-isolated-on-white-background-3d-render-image_13560058.png";
-import learn2 from "../assets/image/243194711_162182662751567_7688233892480613845_n.JPG";
-import chipse from "../assets/image/image-14-7-1024x750.JPG";
-import indome from "../assets/image/FUCWalKWIAEmi2I.JPG";
+import learn2 from "../assets/image/243194711_162182662751567_7688233892480613845_n.jpg";
+import chipse from "../assets/image/image-14-7-1024x750.jpg";
+import indome from "../assets/image/FUCWalKWIAEmi2I.jpg";
 export default function SlickSlider() {
   const settings = {
     dots: true,

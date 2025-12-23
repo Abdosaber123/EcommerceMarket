@@ -1,9 +1,8 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import Cookies from "js-cookie";
-import { p, span } from "motion/react-client";
 import { X } from "lucide-react";
-import empty from "../assets/image/isempty.PNG"
+import empty from "../assets/image/isempty.png"
 function getDayMonthYear(dateString = null) {
   // لو مررنا تاريخ من الباك نستخدمه، غير كده نستخدم تاريخ اليوم
   const date = dateString ? new Date(dateString) : new Date();

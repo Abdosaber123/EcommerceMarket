@@ -1,5 +1,5 @@
 import { useContext, useEffect, useRef, useState } from "react";
-
+import imgEmail from "../assets/image/email.png"
 import { userRipo } from "./context/UserProvider.jsx";
 import axios from "axios";
 import toast from "react-hot-toast";
@@ -75,9 +75,9 @@ if(loading) return <Loading />
     <div className="parent relative flex">
       <div className="w-[50%] bg-[#E6F2FF] h-[870px]"></div>
       <div className="w-[50%] bg-[#1F1F70] h-[870px]"></div>
-      <div className="absolute top-[15%] py-4 right-[2%] left-[2%] bottom-10 bg-white h-[750px]">
+      <div className="absolute top-[8%] right-[2%] left-[2%] bottom-10 bg-white h-[750px]">
         <div className="flex flex-col items-center">
-         
+          <img src={imgEmail} className="w-[200px]" alt="" srcset="" />
           <h1 className="text-3xl font-bold">Please Verify Account</h1>
           <div class="w-full max-w-md px-8 py-10 bg-white rounded-lg  ">
             <h1 class="text-2xl font-semibold text-center mb-6">Enter OTP</h1>
