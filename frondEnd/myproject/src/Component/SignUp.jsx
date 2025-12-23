@@ -10,7 +10,7 @@ import Loading from "./Loading.jsx";
 import { userRipo } from './context/UserProvider';
 
 
-export default function Home() {
+export default function SignUp() {
   let [isLoading, setLoading] = useState(false);
     let [errorMsg, setErrorMsg] = useState(false);
 
