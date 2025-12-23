@@ -1,3 +1,4 @@
+
 import { useContext, useState } from "react";
 import axios from "axios";
 import { useFormik } from "formik";
@@ -6,12 +7,11 @@ import { Link, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { fadeIn } from "./Utily/montion.js";
 import Loading from "./Loading.jsx";
-
 import { userRipo } from './context/UserProvider';
 
 
 export default function SignUp() {
-  let [isLoading, setLoading] = useState(false);
+ let [isLoading, setLoading] = useState(false);
     let [errorMsg, setErrorMsg] = useState(false);
 
   const nav = useNavigate()

@@ -1,6 +1,6 @@
 import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import SignUp from './Component/signUp.jsx'
+
 import Product from './Component/Product.jsx'
 import ProductDetails from './Component/ProductDetails.jsx'
 import CategoryDetails from './Component/CategoryDetails.jsx'
@@ -20,6 +20,8 @@ import Layout from './Component/Layout.jsx'
 import HomePage from './Component/HomePage.jsx'
 import Login from "./Component/Login.jsx"
 import PageNotFound from './Component/PageNotFound.jsx'
+import SignUp from './Component/signUp.jsx'
+
 
 
 function App() {
