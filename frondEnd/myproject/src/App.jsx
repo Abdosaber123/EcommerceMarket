@@ -20,7 +20,8 @@ import AdminGrud from './Component/Gard/AdminGrud.jsx'
 import GetAllUser from './Component/Admin/GetAllUser.jsx'
 import GetDetailsOrderUser from './Component/GetDetailsOrderUser.jsx'
 import Layout from './Component/Layout.jsx'
-import Login from './Component/Login.jsx';
+import Login from './Component/Login';
+
 
 
 
