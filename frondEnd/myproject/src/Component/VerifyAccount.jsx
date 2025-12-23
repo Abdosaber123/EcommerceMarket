@@ -1,5 +1,5 @@
 import { useContext, useEffect, useRef, useState } from "react";
-import imgEmail from "../assets/image/2250206.PNG";
+import imgEmail from "../assets/image/EMAIL.PNG"
 import { userRipo } from "./context/UserProvider.jsx";
 import axios from "axios";
 import toast from "react-hot-toast";
@@ -100,14 +100,7 @@ if(loading) return <Loading />
                 ></div>
               ))}
             </div>
-            <div class="flex items-center flex-col justify-between mb-6">
-              <p class="text-gray-600 text-sm">Didn't receive code?</p>
-              <div class="flex items-center space-x-2">
-                <button class="px-3 py-2 text-sm font-medium text-center rounded text-gray-500 hover:text-blue-500">
-                  Request Again (00:00:36)
-                </button>
-              </div>
-            </div>
+            
             <button
             onClick={verifyAccount}
             class="w-full px-4 py-2 text-lg font-medium text-white bg-blue-600 rounded-md hover:bg-blue-700">
