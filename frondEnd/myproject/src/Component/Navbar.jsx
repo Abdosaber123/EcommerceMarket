@@ -1,5 +1,5 @@
 import { CircleUserRound, LogOut, Menu, X } from "lucide-react";
-import React, { useContext, useEffect, useState } from "react";
+import  { useContext,  useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { userRipo } from "./context/UserProvider.jsx";
 import Cookies from "js-cookie";

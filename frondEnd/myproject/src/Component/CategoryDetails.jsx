@@ -1,7 +1,7 @@
 import axios from "axios";
-import { Minus, Plus, ShoppingCart } from "lucide-react";
-import React, { useEffect, useState } from "react";
-import toast from "react-hot-toast";
+import {  ShoppingCart } from "lucide-react";
+import  { useEffect, useState } from "react";
+
 import { Link, useParams } from "react-router-dom";
 
 export default function CategoryDetails() {

@@ -1,20 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Layout from './Component/layout.jsx'
 import Login from './Component/login.jsx'
 import SignUp from './Component/signUp.jsx'
 import NotFound from './Component/notFound.jsx'
 import Home from './Component/home.jsx'
 import Product from './Component/Product.jsx'
-import Blog from './Component/Blog.jsx'
 import ProductDetails from './Component/ProductDetails.jsx'
 import CategoryDetails from './Component/CategoryDetails.jsx'
 import AdminLayout from './Component/Admin/AdminLayout.jsx'
-
-import AdminPage from './Component/Admin/AdminPage.jsx'
 import CreateProduct from './Component/Admin/CreateProduct.jsx'
 import CategoryCreate from './Component/Admin/CategoryCreate.jsx'
 import Cart from './Component/Cart.jsx'
@@ -26,6 +19,7 @@ import AllOrder from './Component/Admin/AllOrder.jsx'
 import AdminGrud from './Component/Gard/AdminGrud.jsx'
 import GetAllUser from './Component/Admin/GetAllUser.jsx'
 import GetDetailsOrderUser from './Component/GetDetailsOrderUser.jsx'
+import Layout from './Component/Layout.jsx'
 
 
 

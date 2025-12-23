@@ -1,5 +1,4 @@
-import { Facebook, FacebookIcon } from "lucide-react";
-import React from "react";
+
 import { FaFacebookF, FaLinkedin, FaTiktok } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io";
 import { TypeAnimation } from "react-type-animation";

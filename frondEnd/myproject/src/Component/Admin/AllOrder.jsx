@@ -1,7 +1,6 @@
 import axios from "axios";
-import { Mail, Pencil, Trash, UserPen, X } from "lucide-react";
-import React, { useContext, useEffect, useState } from "react";
-import { userRipo } from "../context/UserProvider.jsx";
+import { Mail,  Trash, UserPen, X } from "lucide-react";
+import React, {  useEffect, useState } from "react";
 import Cookies from "js-cookie";
 import Loading from "../Loading.jsx";
 import toast from "react-hot-toast";

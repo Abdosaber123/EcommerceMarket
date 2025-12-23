@@ -1,13 +1,13 @@
 import axios from "axios";
 import { useFormik } from "formik";
-import { Minus, Plus, Trash, Trash2 } from "lucide-react";
-import React, { useContext, useEffect, useState } from "react";
+import {  Trash } from "lucide-react";
+import  {  useEffect, useState } from "react";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 import Loading from "./Loading.jsx";
 import impty from "../assets/image/11329060.png";
 import Cookies from "js-cookie";
-import { userRipo } from "./context/UserProvider.jsx";
+
 
 export default function Cart() {
   const [trigger, setTrigger] = useState(0);

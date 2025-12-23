@@ -1,4 +1,4 @@
-import React from 'react'
+
 import error from "../assets/image/Error-404-Page-Not-Found.PNG"
 export default function NotFound() {
   return (

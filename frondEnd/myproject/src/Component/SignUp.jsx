@@ -1,5 +1,4 @@
-import React, { useContext, useState } from "react";
-
+import { useContext, useState } from "react";
 import axios from "axios";
 import { useFormik } from "formik";
 import { CircleX, Loader } from "lucide-react";
@@ -7,7 +6,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { fadeIn } from "./Utily/montion.js";
 import Loading from "./Loading.jsx";
-import useVerifyAccount from "./VerifyAccount.jsx";
+
 import { userRipo } from './context/UserProvider';
 
 

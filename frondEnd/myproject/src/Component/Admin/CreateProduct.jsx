@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useFormik } from "formik";
 import { ChevronDown, ChevronUp } from "lucide-react";
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 import Loading from "../Loading.jsx";
 import Cookies from "js-cookie";
