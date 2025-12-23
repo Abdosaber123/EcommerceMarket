@@ -1,5 +1,5 @@
 import { useContext, useEffect, useRef, useState } from "react";
-import imgEmail from "../assets/image/EMAIL.PNG"
+import imgEmail from "../assets/image/email.PNG"
 import { userRipo } from "./context/UserProvider.jsx";
 import axios from "axios";
 import toast from "react-hot-toast";
