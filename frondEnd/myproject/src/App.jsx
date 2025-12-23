@@ -1,6 +1,6 @@
 import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Login from './Component/login.jsx'
+
 import SignUp from './Component/signUp.jsx'
 import NotFound from './Component/notFound.jsx'
 import Home from './Component/home.jsx'
@@ -20,6 +20,7 @@ import AdminGrud from './Component/Gard/AdminGrud.jsx'
 import GetAllUser from './Component/Admin/GetAllUser.jsx'
 import GetDetailsOrderUser from './Component/GetDetailsOrderUser.jsx'
 import Layout from './Component/Layout.jsx'
+import Login from './Component/Login.jsx';
 
 
 
