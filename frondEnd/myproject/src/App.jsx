@@ -1,7 +1,6 @@
 import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import SignUp from './Component/signUp.jsx'
-import NotFound from './Component/notFound.jsx'
 import Product from './Component/Product.jsx'
 import ProductDetails from './Component/ProductDetails.jsx'
 import CategoryDetails from './Component/CategoryDetails.jsx'
@@ -20,9 +19,7 @@ import GetDetailsOrderUser from './Component/GetDetailsOrderUser.jsx'
 import Layout from './Component/Layout.jsx'
 import HomePage from './Component/HomePage.jsx'
 import Login from "./Component/Login.jsx"
-
-
-
+import PageNotFound from './Component/PageNotFound.jsx'
 
 
 function App() {
@@ -31,7 +28,7 @@ function App() {
     {index:true , element: <HomePage />},
     {path:"/login" , element:<Login />},
     {path:"/signUp" , element:<SignUp />},
-    {path:"/*" , element:<NotFound />},
+    {path:"/*" , element:<PageNotFound />},
     {path:"/prodcut" , element:<Product />},
     // {path:"/blog" , element:<Blog />},
     {path:"/cart" , element:<CardComponent><Cart></Cart></CardComponent>},
