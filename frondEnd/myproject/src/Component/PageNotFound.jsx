@@ -1,4 +1,4 @@
-import error from "../assets/image/Error-404-Page-Not-Found.PNG"
+import error from "../assets/image/pagenotfound.png"
 export default function PageNotFound() {
     return (
     <div>
