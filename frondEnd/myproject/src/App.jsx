@@ -20,7 +20,7 @@ import Layout from './Component/Layout.jsx'
 import HomePage from './Component/HomePage.jsx'
 import Login from "./Component/Login.jsx"
 import PageNotFound from './Component/PageNotFound.jsx'
-import SignUp from './Component/signUp.jsx'
+import CreateAccont from './Component/CreateAccont.jsx'
 
 
 
@@ -29,7 +29,7 @@ function App() {
   {path:"/" , element: <Layout /> , children:[
     {index:true , element: <HomePage />},
     {path:"/login" , element:<Login />},
-    {path:"/signUp" , element:<SignUp />},
+    {path:"/signUp" , element:<CreateAccont />},
     {path:"/*" , element:<PageNotFound />},
     {path:"/prodcut" , element:<Product />},
     // {path:"/blog" , element:<Blog />},
