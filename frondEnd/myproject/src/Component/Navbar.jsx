@@ -1,6 +1,6 @@
 import { CircleUserRound, LogOut, Menu, X } from "lucide-react";
 import React, { useContext, useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { userRipo } from "./context/UserProvider.jsx";
 import Cookies from "js-cookie";
 export default function Navbar() {
@@ -8,6 +8,7 @@ export default function Navbar() {
     useContext(userRipo);
   const [isOpen, setOpen] = useState(false);
   const [isOpenNav, setOpenNav] = useState(false);
+  const nav = useNavigate()
   const role = Cookies.get("Role")
   const userfullName = Cookies.get("fullName")
   const token = Cookies.get("token")
@@ -19,6 +20,9 @@ export default function Navbar() {
     Cookies.remove("Role")
     Cookies.remove("fullName")
     setOpen(false);
+    setTimeout(()=>{
+      nav("/")
+    },1000)
   }
 
 

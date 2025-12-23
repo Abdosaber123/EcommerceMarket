@@ -64,7 +64,7 @@ export default function Login() {
             initial="hidden"
             whileInView="show"
             viewport={{ once: true }}
-            className="left hidden md:block lg:px-[90px] bg-blue-500 xl:px-10 text-white py-40 md:rounded-r-md xl:py-[235px] rounded-s-3xl   "
+            className="left hidden md:block lg:px-[90px] 2xl:px-32 bg-blue-500 xl:px-10 text-white py-40 md:rounded-r-md xl:py-[235px] rounded-s-3xl   "
           >
             <h3 className="font text-5xl text-center py-5  hover:ml-10 duration-200  hover:text-gray-300  ">
               Welcome Back!
@@ -78,7 +78,7 @@ export default function Login() {
             initial="hidden"
             whileInView="show"
             viewport={{ once: true }}
-            className="right xl:px-[147px] py-5 px-2 xl:py-[125px] sm:py-16 md:rounded-r-3xl rounded-xl md:rounded-l-none bg-white 
+            className="right xl:px-[147px] py-5 px-2 xl:py-[125px] 2xl:px-[207px] sm:py-16 md:rounded-r-3xl rounded-xl md:rounded-l-none bg-white 
             lg:px-11
             "
           >

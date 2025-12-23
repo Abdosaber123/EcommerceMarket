@@ -53,7 +53,7 @@ export default function Home() {
             initial="hidden"
             whileInView="show"
             viewport={{ once: true }}
-            className="left hidden md:block bg-blue-500 xl:px-[43px] md:px-3 text-white py-[219px] md:rounded-r-md xl:py-[278px] rounded-s-3xl "
+            className="left 2xl:px-32 hidden md:block bg-blue-500 xl:px-[43px] md:px-3 text-white py-[219px] md:rounded-r-md xl:py-[278px] rounded-s-3xl "
           >
             <h3 className="font text-5xl text-center py-3  hover:ml-10 duration-200 hover:text-gray-300 ">
               Welcome Back!
@@ -67,7 +67,7 @@ export default function Home() {
             initial="hidden"
             whileInView="show"
             viewport={{ once: true }}
-            className="right xl:px-36 md:px-5 md:py-3 py-5 px-2 xl:py-[70px] sm:px-14 sm:py-16 md:rounded-r-3xl rounded-xl md:rounded-l-none bg-white 
+            className="right 2xl:px-[207px] xl:px-36 md:px-5 md:py-3 py-5 px-2 xl:py-[70px] sm:px-14 sm:py-16 md:rounded-r-3xl rounded-xl md:rounded-l-none bg-white 
             lg:px-11"
           >
             <h1 className="text-4xl text-gray-800 font-bold mb-3 text-center ">
